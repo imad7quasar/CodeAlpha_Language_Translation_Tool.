@@ -1,6 +1,5 @@
 # Translation Tool
 
-![Translation Tool Screenshot](./images/screenshot.png)
 
 ## Overview
 
@@ -11,9 +10,7 @@ This is a simple and efficient translation tool built using the `googletrans` li
 - **Powered by Google Translate API:** The tool leverages the `googletrans` library for reliable translations.
 - **User-Friendly Interface:** The UI is intuitive and easy to navigate, ensuring a smooth user experience.
 - **Language Detection:** Automatically detects the input language and provides accurate translations.
-- **Neon Blue-Themed Design:** The interface features a modern, blue neon theme with sleek fonts like Poppins.
-- **Hover Effects:** Interactive buttons with hover effects enhance the usability.
-- **Quick Access:** Easily access translation features with minimal clicks.
+
 
 ## Screenshots
 
@@ -22,30 +19,17 @@ Here’s a preview of the app:
 ![Screenshot 1](1.png)
 ![Screenshot 2](2.png)
 
-## Installation
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/translation-tool.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd translation-tool
-    ```
-3. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
 
 ## Usage
 
 1. Run the application:
     ```bash
-    python app.py
+    python main.py
     ```
 2. Enter the text you want to translate.
 3. Choose your desired language or let the app automatically detect the language.
-
+4. You can directly run the executable file located in /dist if you are using Windows 
 ## Dependencies
 
 - `googletrans==4.0.0-rc1`
